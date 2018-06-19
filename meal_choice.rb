@@ -5,10 +5,23 @@ def breakfast
   puts "#{time_of_day} is the best time to eat #{food}".
 end
 
+breakfast
+
 def lunch
   lunch = "grilled cheese"
   time_of_day = "noon"
   puts "eating #{lunch} is best in #{time_of_day}!"
+end
+
+lunch
+
+def dinner
+  dinner = "salmon"
+  time_of_day = "afternoon"
+  puts "#{time_of_day} #{dinner} tastes the best."
+end
+
+dinner
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
 
