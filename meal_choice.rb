@@ -1,5 +1,5 @@
 # Here's an example of a 'snacks' method that returns the meal choice passed in to it and defaults to "cheetos" if nothing is passed in.
-def snacks(food="Cheetos")
+def breakfast (food="")
   "Any time, is the right time for #{food}!"
 end
 
