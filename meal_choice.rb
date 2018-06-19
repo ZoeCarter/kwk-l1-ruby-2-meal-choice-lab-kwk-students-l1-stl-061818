@@ -15,4 +15,4 @@ def dinner(time_of_day, dinner)
   puts "#{time_of_day} #{dinner} tastes the best."
 end
 
-dinner ("afternoon", "Salmon")
+dinner("afternoon", "Salmon")
