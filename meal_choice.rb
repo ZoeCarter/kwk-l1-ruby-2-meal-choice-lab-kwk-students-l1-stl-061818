@@ -1,24 +1,18 @@
 
-def breakfast 
-  food = "Frosted Flakes"
-  time_of_day = "morning"
+def breakfast(time_of_day, food)
   puts "#{time_of_day} is the best time to eat #{food}."
 end
 
-breakfast
+breakfast("moring", "Frosted Flakes")
 
-def lunch
-  lunch = "Grilled Cheese"
-  time_of_day = "noon"
+def lunch(time_of_day, lunch)
   puts "eating #{lunch} is best in #{time_of_day}!"
 end
 
-lunch
+lunch("noon", "grilled cheese")
 
-def dinner
-  dinner = "Salmon"
-  time_of_day = "afternoon"
+def dinner(time_of_day, dinner)
   puts "#{time_of_day} #{dinner} tastes the best."
 end
 
-dinner
+dinner ("afternoon", "Salmon")
